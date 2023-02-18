@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
+
+
+  body, html {
+    background-color: #5200ff;
+    font-family: 'Source Code Pro', monospace;
+    height: 100%;
+    margin: 0;
+  }
+  
+  .container {
+    background-image: url('https://images.pexels.com/photos/247791/pexels-photo-247791.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+    font-size: 25px;
+  }
+  
+  .topleft {
+    position: absolute;
+    top: 0;
+    left: 16px;
+    font-weight: bolder;
+  }
+  
+  .bottomleft {
+    position: absolute;
+    bottom: 0;
+    left: 16px;
+    font-weight: bolder;
+  }
+  
+  .middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background: rgba(0, 0, 0, 0.831);
+    padding: 16px;
+    border-radius: 18px;
+  }
+
+  hr {
+    margin: auto;
+    width: 40%;
+  }
